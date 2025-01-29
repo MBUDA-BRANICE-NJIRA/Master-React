@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './Components/Great';
 
 function App() {
   return (
     <div className="App">
-      <Greet/>
+      <Greet/>              /*This is my first component for practice
+    
     </div>
   );
 }
