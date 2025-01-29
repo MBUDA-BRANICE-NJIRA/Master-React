@@ -6,9 +6,15 @@ import Welcome from './Components/Welcome';
 function App() {
   return (
     <div className="App">
-      {/* <Greet/>
-      <Welcome/> */}
-      <Hello/>
+      {/* Re using of component to though props */}
+      <Greet name = "Njira"/>          
+      <Greet name = "Branice"/>
+      <Greet name = "Queen"/>
+      <Greet name = "Mourice"/>
+{/* end */}
+
+      {/* <Welcome/>
+      <Hello/> */}
     </div>
   );
 }
