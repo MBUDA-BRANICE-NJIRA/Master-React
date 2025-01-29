@@ -1,11 +1,12 @@
 import './App.css';
 import Greet from './Components/Great';
+import Welcome from './Components/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <Greet/>              /*This is my first component for practice
-    
+      <Greet/>
+      <Welcome/>
     </div>
   );
 }
